@@ -1,6 +1,3 @@
-<?php
-  $is = isset($_GET['is']) ? $_GET['is'] : 'is an asshole!';
-?>
 <html>
   <head>
     <title>...::: Charley  :::...</title>
@@ -9,7 +6,7 @@
   </head>
 
   <body>
-    <h1>Charley is <?php echo $is; ?></h1>
+    <h1>Charley is <?php echo isset($_GET['is']) ? $_GET['is'] : 'is an asshole!'; ?></h1>
     <footer>
       Powered by <a href="https://twitter.com/caedes">@caedes</a>
       - <a href="https://github.com/caedes/charley">Source</a>
