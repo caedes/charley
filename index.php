@@ -8,20 +8,23 @@
     }
     body, a {
       color: white;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
     }
     a {
       text-decoration: none;
     }
     h1 {
-      font-family: "Comic Sans MS", "Comic Sans", cursive;
       font-weight: none;
       font-size: 80px;
       text-align: center;
       margin-top: 300px;
     }
     footer {
+      text-align: center;
       position: absolute;
       bottom: 30px;
+      left: 50%;
+      margin-left: -90px;
     }
     </style>
   </head>
