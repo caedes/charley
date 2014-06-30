@@ -8,10 +8,11 @@
     }
     h1 {
       color: white;
-      font-family: 'Comic Sans', sans-serif;
-      font-size: 36px;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      font-weight: none;
+      font-size: 80px;
       text-align: center;
-      margin-top: 300px;
+      margin-top: 50%;
     }
     </style>
   </head>
