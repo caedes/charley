@@ -2,7 +2,7 @@
 
 ## Development
 
-All commits must be `burp`.
+All commits must be `Burp`.
 
 ## Usage
 
