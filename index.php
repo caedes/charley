@@ -6,10 +6,17 @@
     body {
       background-image: url(images/burp.jpg);
     }
+    h1 {
+      color: white;
+      font-family: 'Comic Sans', sans-serif;
+      font-size: 36px;
+      text-align: center;
+      margin-top: 300px;
+    }
     </style>
   </head>
 
   <body>
-    <?php echo $_GET['is']; ?>
+    <h1>Charley is <?php echo $_GET['is']; ?></h1>
   </body>
 </html>
