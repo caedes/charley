@@ -19,5 +19,9 @@
 
   <body>
     <h1>Charley is <?php echo $_GET['is']; ?></h1>
+    <footer>
+      With 💔 by <a href="https://github.com/caedes">caedes</a>
+      - <a href="https://github.com/caedes/charley">Source</a>
+    </footer>
   </body>
 </html>
