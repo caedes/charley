@@ -1,3 +1,7 @@
+<?php
+  $verb = isset($_GET['verb']) ? $_GET['verb'] : 'is';
+  $msg  = isset($_GET['msg']) ? $_GET['msg'] : 'an asshole!';
+?>
 <html>
   <head>
     <title>...::: Charley  :::...</title>
@@ -6,7 +10,7 @@
   </head>
 
   <body>
-    <h1>Charley is <?php echo isset($_GET['is']) ? $_GET['is'] : 'is an asshole!'; ?></h1>
+    <h1>Charley <?php echo $verb;?> <?php echo $msg;?></h1>
     <footer>
       Powered by <a href="https://twitter.com/caedes" target="_blank">@caedes</a>
       - <a href="https://github.com/caedes/charley#charley" target="_blank">Readme</a>

@@ -8,9 +8,15 @@ All commits must be `Burp`.
 
 ### Message
 
-Can be custom through the GET param `is`:
+Can be custom through the GET param `msg`:
 
-http://charley.herokuapp.com/?is=dumb.
+http://charley.herokuapp.com/?msg=dumb
+
+### Verb
+
+Can be custom through the GET param `verb`:
+
+http://charley.herokuapp.com/?verb=has&msg=tiny%20balls
 
 ## Contributing
 
