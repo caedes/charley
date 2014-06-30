@@ -12,7 +12,7 @@
       font-weight: none;
       font-size: 80px;
       text-align: center;
-      margin-top: 50%;
+      margin-top: 300px;
     }
     </style>
   </head>
