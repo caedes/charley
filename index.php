@@ -8,8 +8,8 @@
   <body>
     <h1>Charley is <?php echo isset($_GET['is']) ? $_GET['is'] : 'is an asshole!'; ?></h1>
     <footer>
-      Powered by <a href="https://twitter.com/caedes">@caedes</a>
-      - <a href="https://github.com/caedes/charley#charley">Readme</a>
+      Powered by <a href="https://twitter.com/caedes" target="_blank">@caedes</a>
+      - <a href="https://github.com/caedes/charley#charley" target="_blank">Readme</a>
     </footer>
   </body>
 </html>
