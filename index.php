@@ -1,6 +1,7 @@
 <?php
   $verb = isset($_GET['verb']) ? $_GET['verb'] : 'is';
   $msg  = isset($_GET['msg']) ? $_GET['msg'] : 'an asshole!';
+  $bg   = isset($_GET['bg']) ? $_GET['bg'] : 'images/burp.jpg';
 ?>
 <html>
   <head>
@@ -9,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
 
-  <body>
+  <body style="background-image:url(<?php echo $bg;?>);">
     <h1>Charley <?php echo $verb;?> <?php echo $msg;?></h1>
     <footer>
       Powered by <a href="https://twitter.com/caedes" target="_blank">@caedes</a>
